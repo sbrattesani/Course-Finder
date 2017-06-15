@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <link href='tt.css' rel='stylesheet' media='all' />
+    <script src='jquery-1.11.0.min.js'></script>
+    <script src='tt.js'></script>
+    <title>Timetable</title>
+</head>
+<body>
+    <h1>Napier Timetable <img src="napierlogo.png"></h1>
+	
+  	
+    </div>
+    <table id='fixedDetails'>
+        <caption>Fixed Details</caption>
+        <tr><th>Module Code</th><td id='moduleCode'></td></tr>
+         <tr><th>Module Name</th><td id='moduleName'></td></tr>
+         <tr><th>Module Leader</th><td id='moduleLeader'></td></tr>
+         <tr><th>Credit Value</th><td id='credit'></td></tr>
+         <tr><th>School</th><td id='school'></td></tr>
+		 </table> 
+		
+		<select id="pickSchool" name="schools" >
+		<option>- Please select a School -</option>
+		</select>
+        
+	<select id="pickModule" name="schools" >
+	<option>- Please select a Module -</option>
+	</select>
+	<button id='getModule'>Go</button>
+	
+    <table id='schedule'>
+        <caption>Schedule</caption>
+        <tr><th></th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th></tr>
+        <tr><th>Mon</th><td id='mon09'></td><td id='mon10'></td><td id='mon11'></td><td id='mon12'></td><td id='mon13'></td><td id='mon14'></td><td id='mon15'></td><td id='mon16'></td><td id='mon17'></td></tr>
+        <tr><th>Tue</th><td id='tue09'></td><td id='tue10'></td><td id='tue11'></td><td id='tue12'></td><td id='tue13'></td><td id='tue14'></td><td id='tue15'></td><td id='tue16'></td><td id='tue17'></td></tr>
+        <tr><th>Wed</th><td id='wed09'></td><td id='wed10'></td><td id='wed11'></td><td id='wed12'></td><td id='wed13'></td><td id='wed14'></td><td id='wed15'></td><td id='wed16'></td><td id='wed17'></td></tr>
+        <tr><th>Thu</th><td id='thu09'></td><td id='thu10'></td><td id='thu11'></td><td id='thu12'></td><td id='thu13'></td><td id='thu14'></td><td id='thu15'></td><td id='thu16'></td><td id='thur17'></td></tr>
+        <tr><th>Fri</th><td id='fri09'></td><td id='fri10'></td><td id='fri11'></td><td id='fri12'></td><td id='fri13'></td><td id='fri14'></td><td id='fri15'></td><td id='fri16'></td><td id='fri17'></td></tr>
+    </table>
+	
+	<button id='printTimetable'>Save / Print</button>
+	
+	<div id='relatedModules'>
+		<caption><u><b>Related Modules</b></u> </caption>
+		<p id='Module1'> N/A
+		<p id='Module2'>
+		<p id='Module3'>
+		<p id='Module4'>
+		<p id='Module5'>
+		<p id='Module6'>
+		<p id='Module7'>
+		<p id='Module8'>
+		<p id='Module9'>
+	</div>
+</body>
+</html>
